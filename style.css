@@ -77,3 +77,39 @@ padding-bottom: 8px;
 border: 1px solid black;
 border-radius: 8px;
 }
+.greeting {
+display: inline-flex;
+padding: 24px;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+border-radius: 8px;
+background: #FFF;
+}
+#name-input {
+border: 1px solid black;
+border-radius: 3px;
+width: 340px;
+height: 22px;
+padding-left: 16px;
+padding-top: 8px;
+padding-bottom: 8px;
+}
+#name-input::placeholder {
+  color: #2E2F42;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.04em;
+}
+.greeting > h1 {
+  color: #2E2F42;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 1.33; /* 133.333% */
+letter-spacing: 0.04em;
+}

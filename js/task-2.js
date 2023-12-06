@@ -34,7 +34,6 @@ const images = [
     });
     const li = gallaryClass.querySelector(".new");
     li.style.display = "flex";
-    console.log(li);
     gallaryClass.style.display = "flex";
     gallaryClass.style.flexWrap = "wrap";
     gallaryClass.style.flexDirection = "column";
